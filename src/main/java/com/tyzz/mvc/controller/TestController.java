@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 @Controller
 @RequestMapping("/api")
@@ -46,7 +45,6 @@ public class TestController {
         user.setName("张三");
         user.setAge(18);
         return user;
-        HashMap
     }
 
     @GetMapping(value = "/responseBody")
